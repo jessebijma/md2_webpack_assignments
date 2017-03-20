@@ -172,6 +172,8 @@ for (let i = 0; i < 11; i++) {
     const firstName = "jesse";
     const lastName = "bijma";
     const fullName = firstName + " " +  lastName;
+
+    console.log(fullName);
 /**
  * Opdracht 12: Random cijfers
  * console.log() een willekeurige cijfer tussen 0 en 5
@@ -211,9 +213,14 @@ console.log('Als ik vanuit JavaScript een menu maak met knoppen, dan sla ik de k
 /**
  * Opdracht 14: Keywords
  * Maak 4 variabelen aan met de let keyword
+
  * Maak 4 variabelen aan met de const keyword
  */
 
+    let name = "test";
+    let age = "20";
+    let height = "180";
+    let
 /**
  * Opdracht 15: Keywords
  * Geef antwoord op de volgende vragen:
