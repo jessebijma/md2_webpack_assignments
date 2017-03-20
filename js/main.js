@@ -225,13 +225,18 @@ console.log('Als ik vanuit JavaScript een menu maak met knoppen, dan sla ik de k
     let age = "20";
     let height = "180";
     let weight = "70";
+
+    const name2 = "test";
+    const age2 = "20";
+    const height2 = "180";
+    const weight2 = "70";
 /**
 
  * Opdracht 14: Keywords
  * Geef antwoord op de volgende vragen:
  */
-console.log('Wanneer gebruik je de let keyword?', 'jouw antwoord');
-console.log('Wanneer gebruik je de const keyword', 'jouw antwoord');
+console.log('Wanneer gebruik je de let keyword?', 'let is bijna hetzelfde als var, maar bij hoistinng blijft let op dezelfde plek staan');
+console.log('Wanneer gebruik je de const keyword', 'een const is een constante, dus hij kan niet worden aangepast');
 
 /**
  * Opdracht 15: Objects en array
@@ -239,3 +244,10 @@ console.log('Wanneer gebruik je de const keyword', 'jouw antwoord');
  * Maak in je object een array aan genaamd 'family' en vul deze array met namen uit je familie
  * (objecten en arrays kunnen in elkaar opgeslagen worden)
  */
+
+var jesse = {
+    name: "jesse",
+    age: "20",
+    height: "180",
+    family: ['test','test','test']
+};
