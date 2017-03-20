@@ -87,22 +87,28 @@ var bag = {brand:"Patta", collection:"Running Team", color:"Black/Pink/Purple Ca
  * parameters value & multiplier console.log( value * multiplier)
  */
 const myFunct = (a,b) => {
+        a = 1;
+        b = 2;
         return a * b;
 };
 
-console.log(myFunct(a,b));
+console.log(myFunct());
 
 const myFunct1 = (c,d) => {
+    c = 3;
+    d = 4;
     return c + d;
 };
 
-console.log(myFunct1(c,d));
+console.log(myFunct1());
 
 const myFunct2 = (e,f) => {
+    e = 5;
+    f = 6;
     return e - f;
 };
 
-console.log(myFunct2(e,f));
+console.log(myFunct2());
 
 /**
  * Opdracht 7: Function & objects
@@ -111,9 +117,9 @@ console.log(myFunct2(e,f));
  * lastname opgeslagen roep deze functie aan en console.log() de waarde
  */
     const myFunct3 = (firstName, lastName) => {
-    let object = {firstName : "test", lastName : "test"};
-    return object;
-}
+    let object1 = {firstName : "test", lastName : "test"};
+    return object1;
+};
 
 console.log(myFunct3());
 /**
@@ -122,6 +128,14 @@ console.log(myFunct3());
  * Maak in dit object bij het aanmaken een functie aan met de naam 'showName'
  */
 
+const student1 = {
+    name: "bob",
+    showName: () => {
+        console.log(student1.name);
+    }
+};
+
+student1.showName();
 /**
  * Opdracht 9: Functions, objects
  * Maak een object genaamd 'student'
@@ -129,11 +143,24 @@ console.log(myFunct3());
  * de naam 'showName'
  */
 
+const student2 = {
+    name: "mikwel",
+    showName : () => {
+        console.log(student2.name);
+    }
+};
+
+student2.showName();
 /**
  * Opdracht 10: Arrays & for loops
  * Maak een array genaamd 'students' met daarin 10 namen van je medeleerlingen
  * Schrijf een for loop om alle namen in de Array te laten zien (console.log())
  */
+let students = ["a","b","c","d","e","f","g","h","i","j","k",];
+
+for (let i = 0; i < 11; i++) {
+    console.log(students);
+}
 
 /**
  * Opdracht 11: Strings samenvoegen
@@ -142,7 +169,9 @@ console.log(myFunct3());
  * Maak een variabele fullName, en zorg ervoor dat de variabelen 'firstName' en
  * 'lastName' hier samen in worden opgeslagen
  */
-
+    const firstName = "jesse";
+    const lastName = "bijma";
+    const fullName = firstName + " " +  lastName;
 /**
  * Opdracht 12: Random cijfers
  * console.log() een willekeurige cijfer tussen 0 en 5
@@ -150,7 +179,15 @@ console.log(myFunct3());
  * console.log() een willekeurige cijfer tussen 30 en 40
  * console.log() een willekeurige cijfer tussen -100 en 100
  */
+    var randNum1 = Math.random(0,5);
+    var randNum2 = Math.random(1,10);
+    var randNum3 = Math.random(30,40);
+    var randNum4 = Math.random(-100,100);
 
+    console.log(randNum1);
+    console.log(randNum2);
+    console.log(randNum3);
+    console.log(randNum4);
 /**
  * Opdracht 13: Primitive, Array of object?
  * Geef in de console.log antwoord op de vraag door een boolean op true of
