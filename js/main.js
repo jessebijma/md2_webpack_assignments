@@ -235,7 +235,7 @@ console.log('Als ik vanuit JavaScript een menu maak met knoppen, dan sla ik de k
  * Opdracht 14: Keywords
  * Geef antwoord op de volgende vragen:
  */
-console.log('Wanneer gebruik je de let keyword?', 'let is bijna hetzelfde als var, maar bij hoistinng blijft let op dezelfde plek staan');
+console.log('Wanneer gebruik je de let keyword?', 'let is bijna hetzelfde als var, maar bij hoisting blijft let op dezelfde plek staan');
 console.log('Wanneer gebruik je de const keyword', 'een const is een constante, dus hij kan niet worden aangepast');
 
 /**
@@ -251,3 +251,15 @@ var jesse = {
     height: "180",
     family: ['test','test','test']
 };
+
+import testFunct from "funct";
+
+testFunct(name);
+
+var result;
+var testArray = [
+    { name: "test1", age: 20},
+    { name: "test2", age:20},
+    { name: "test3", age:20}
+];
+
