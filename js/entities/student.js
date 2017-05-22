@@ -6,11 +6,14 @@ class Student {
         this.age = age;
     }
 
+
+
     getFullName(){
         return this.firstName + " " + this.lastName;
         // dit mag ook, dit noemen we een template literals
         // return `${this.firstName} ${this.lastName}`;
     }
+
 
 }
 

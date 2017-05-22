@@ -1,3 +1,5 @@
+import les6 from './les_6';
+
 /**
  * Uitleg van deze opdrachten:
  * Kijk hoever je komt met deze opdrachten. Ik zal deze lijst in de toekomst
@@ -10,11 +12,9 @@
 /**
  * Opdracht 1: primitives
  * Maak voor de volgende primitives 5 goed bedachte variabelen per primitive
-<<<<<<< HEAD
 
-=======
+
  *
->>>>>>> upstream/master
  * 5 variabelen met daarin een string
  * 5 variabelen met daarin een number
  * 5 variabelen met daarin een boolean
@@ -247,7 +247,6 @@ console.log('Wanneer gebruik je de const keyword', 'een const is een constante, 
  * (objecten en arrays kunnen in elkaar opgeslagen worden)
  */
 
-<<<<<<< HEAD
 var jesse = {
     name: "jesse",
     age: "20",
@@ -266,7 +265,6 @@ var testArray = [
     { name: "test3", age:20}
 ];
 
-=======
 /**
  * Hieronder heb ik code geschreven die je nodig hebt voor vraag 16 en 17
  * Aan deze code hoef je niets te veranderen
@@ -290,6 +288,11 @@ String.prototype.replaceAll = function(search, replacement) {
  * console.log() de naam die deze functie returned
  */
 
+
+var arraytje = ['name1','name2','name3','name4'];
+
+
+console.log(arraytje.random());
 /**
  * Opdracht 17: Custom prototype method gebruiken
  * Maak een variabele waarin je een lange tekst opslaat
@@ -298,12 +301,18 @@ String.prototype.replaceAll = function(search, replacement) {
  * console.log() deze gewijzigde tekst
  */
 
+let teststringetje = "dit is een hele lange tekst dit is een hele lange tekst dit is een hele lange tekst dit is een hele lange tekst";
+
+teststringetje.replaceAll("dit", "test");
+
+console.log(teststringetje);
+
 /**
  * Opdracht 18: Prototype based language
  * Geef antwoord op onderstaande vraag
  */
 console.log('Waarom heet JavaScript een prototype based language?',
-            'jouw antwoord');
+            'Javascript maakt gebruikt van een prototype chain, waarbij dingen als bijvoorbeeld een Array die je aanmaakt autpmatisch gebruik maakt van een prototype waar een aantal standaard functies in staan');
 
 
 /**
@@ -313,10 +322,12 @@ console.log('Waarom heet JavaScript een prototype based language?',
  * Zorg ervoor dat deze functie er is en laat met 3 arrays zien dat hij werkt
  */
 
+
+
+
 /**
  * Opdracht 20: Monkey patching (?)
  * Je begint nu in te zien hoe JS werkt. Probeer nu de splice() en push()
  * functies van Arrays te overschrijven met een eigen functie.
  * Maak 2 arrays aan en laat zien dat je code werkt
  */
->>>>>>> BerendWeij/master
